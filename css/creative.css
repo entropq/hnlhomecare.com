@@ -220,6 +220,10 @@ header .header-content .header-content-inner p {  margin-bottom: 50px;
   }
 }
 
+section .container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 .section-heading {  margin-top: 0;
 }
 
