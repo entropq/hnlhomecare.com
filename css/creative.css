@@ -176,10 +176,14 @@ header h2 {
   margin-bottom: 30px;
   color: rgba(255,255,255,.7);
 }
-header .header-content {  position: relative;
+header .header-content {  
+  position: relative;
   width: 100%;
   padding: 100px 15px;
   text-align: center;
+  margin-top: 27px;
+  background-color: rgba(0,0,0,.3);
+  padding: 5px;
 }
 
 header .header-content .header-content-inner h1 {  margin-top: 0;
