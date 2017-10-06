@@ -45,4 +45,23 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    if ($('.header-content-inner a.toggle').length == 0 ) {
+        $('.header-content-inner')
+            .append(
+                $('<a/>', {class:'toggle'}).text('click me to change background').on('click', function(e) {
+                    e.preventDefault()
+                    var className = $(e.target).parents()[2].className;
+                    var $elem = $($(e.target).parents()[2]);
+                    if (className.length > 0) {
+                        var no = Math.round(className.slice(-1)) + 1;
+                        $elem.removeClass(className);
+                        if (no<3) {
+                            $elem.addClass('header'+no);
+                        }
+                    }
+                    else {
+                        $elem.addClass('header1');
+                    }
+            }));
+    }
 })(jQuery); // End of use strict

@@ -172,6 +172,16 @@ header {  position: relative;
   -o-background-size: cover;
 }
 
+header.header1 {
+    background-image: url(../images/header_1.jpg);
+}
+header.header2 {
+    background-image: url(../images/header_2.jpg);
+}
+header.header3 {
+    background-image: url(../images/header_3.jpg);
+}
+
 header h2 {
   margin-bottom: 30px;
   color: rgba(255,255,255,.7);
@@ -182,7 +192,7 @@ header .header-content {
   padding: 100px 15px;
   text-align: center;
   margin-top: 50px;
-  background-color: rgba(0,0,0,.3);
+  /*background-color: rgba(0,0,0,.3);*/
   padding: 5px;
 }
 
@@ -208,7 +218,7 @@ header .header-content .header-content-inner p {  margin-bottom: 50px;
   }
 
   header .header-content {      position: absolute;
-      top: 50%;
+      top: 38%;
       padding: 0 50px;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
