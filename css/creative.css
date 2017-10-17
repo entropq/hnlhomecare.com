@@ -168,7 +168,9 @@ footer samp{
   }
 }
 
-header {  position: relative;
+header {  
+  padding: 44px 0;
+  position: relative;
   width: 100%;
   min-height: auto;
   text-align: center;
