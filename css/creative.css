@@ -46,6 +46,11 @@ p {  margin-bottom: 20px;
   line-height: 1.5;
 }
 
+.verticalalign {
+    display: flex;
+    align-items: center;
+}
+
 .bg-primary {  /* background-color: #F5852A; */
 }
 
@@ -58,6 +63,11 @@ aside {
 }
 aside#contact {
     padding: 200px 0;
+}
+
+.row.icon-list>div{
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 footer {
@@ -163,7 +173,7 @@ header {  position: relative;
   min-height: auto;
   text-align: center;
   color: #000;
-  background-image: url(../images/header.jpg);
+  background-image: url(../images/header_2.jpg);
   background-color: #443161;
   background-position: center;
   -webkit-background-size: cover;
@@ -505,6 +515,7 @@ i.material-icons.md-84 { font-size: 84px; }
     margin-left: 40px;
     width: 295px;
 }
+
 .bg-primary ul li{
     display: flex;
     align-items: center;
