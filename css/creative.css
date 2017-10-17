@@ -41,6 +41,10 @@ h5,
 h6 {  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.small, small {
+    font-size: 72%;
+}
+
 p {  margin-bottom: 20px;
   font-size: 16px;
   line-height: 1.5;
@@ -49,6 +53,10 @@ p {  margin-bottom: 20px;
 .verticalalign {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+.verticalalign .info {
+    width: 100%;
 }
 
 .bg-primary {  /* background-color: #F5852A; */
