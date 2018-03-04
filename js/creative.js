@@ -44,7 +44,7 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-
+    /*
     if ($('.header-content-inner a.toggle').length == 0 ) {
         $('.header-content-inner')
             .append(
@@ -63,5 +63,5 @@
                         $elem.addClass('header1');
                     }
             }));
-    }
+    }*/
 })(jQuery); // End of use strict
